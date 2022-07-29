@@ -1,0 +1,58 @@
+.item-card {
+    background-color: white;
+    width: 15vw;
+    margin: 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    position: relative;
+    font-family: 'Poppins';
+}
+
+.item-image {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.item-details {
+    position: absolute;
+    height: 20vh;
+    width: 15vw;
+    top: 25vh;
+    background-color: white;
+}
+
+.title {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.amount {
+    margin: 10px;
+}
+
+.rating {
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    width: fit-content;
+    padding: 2px 8px;
+    margin: 10px;
+}
+
+
+.heart {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.cart {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    height: 1.5em;
+    width: 1.5em;
+}
